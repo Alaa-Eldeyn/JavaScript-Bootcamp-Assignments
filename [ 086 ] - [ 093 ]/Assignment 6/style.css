@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    max-width: 910px;
+    margin: .1rem auto;
+}
+.st{
+    border: 2px solid #eee;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    margin: .1rem auto 1.5rem;
+}
+form input, form select{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: .7rem auto;
+    border: 2px solid #e3e3e3;
+}
+form select{
+    width: 273px;
+}
+:focus{
+    border: 2px solid #0065f8;
+    outline: none;
+}
+form input:last-of-type{
+    background-color: #0065f8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s;
+    margin-top: 2.5rem;
+}
+form input:last-of-type:hover{
+    transform: scale(1.05);
+}
+.results{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

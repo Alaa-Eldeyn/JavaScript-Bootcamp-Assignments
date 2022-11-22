@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "author": "Alaa",
+        "article": {
+            "category": "sport",
+            "title": "title",
+            "content": "content"
+        }
+    },
+    {
+        "id": 1,
+        "author": "Alaa",
+        "article": {
+            "category": "sport",
+            "title": "title",
+            "content": "content"
+        }
+    },
+    {
+        "id": 1,
+        "author": "Alaa",
+        "article": {
+            "category": "sport",
+            "title": "title",
+            "content": "content"
+        }
+    },
+    {
+        "id": 1,
+        "author": "Alaa",
+        "article": {
+            "category": "sport",
+            "title": "title",
+            "content": "content"
+        }
+    },
+    {
+        "id": 1,
+        "author": "Alaa",
+        "article": {
+            "category": "sport",
+            "title": "title",
+            "content": "content"
+        }
+    }
+]

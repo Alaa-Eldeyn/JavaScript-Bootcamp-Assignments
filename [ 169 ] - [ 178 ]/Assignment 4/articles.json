@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "author": "Alaa",
+        "article": {
+            "category": "sport",
+            "title": "title",
+            "content": "content"
+        }
+    },
+    {
+        "id": 2,
+        "author": "Ahmed",
+        "article": {
+            "category": "sport",
+            "title": "title",
+            "content": "content"
+        }
+    },
+    {
+        "id": 3,
+        "author": "Osama",
+        "article": {
+            "category": "sport",
+            "title": "title",
+            "content": "content"
+        }
+    },
+    {
+        "id": 4,
+        "author": "Sayed",
+        "article": {
+            "category": "sport",
+            "title": "title",
+            "content": "content"
+        }
+    },
+    {
+        "id": 5,
+        "author": "Elzero",
+        "article": {
+            "category": "sport",
+            "title": "title",
+            "content": "content"
+        }
+    }
+]

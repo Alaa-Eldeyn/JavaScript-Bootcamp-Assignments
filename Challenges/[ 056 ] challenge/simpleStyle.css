@@ -1,0 +1,37 @@
+:root {
+    --main-color: #006dd3;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+div:first-of-type {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+div {
+    background-color: #ededed;
+    padding: .8rem;
+    border-radius: .5rem;
+}
+span {
+    font-weight: bold;
+    color: var(--main-color);
+}
+h3 {
+    color: var(--main-color);
+}
+p {
+    border-left: 3px solid var(--main-color);
+    padding-left: .4rem;
+    margin-left: 1.3rem;
+}
+hr{
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: #eee;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn JavaScript</title>
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      form{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      form input, select{
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #eee;
+      }
+      form input:focus{
+        outline: 1px solid #0065f8;
+      }
+      form input[type="submit"]{
+        background-color: #0065f8;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: .1s;
+      }
+      form input[type="submit"]:hover{
+        background-color: #0088f8;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <input type="text" placeholder="Your name..">
+      <input type="number" placeholder="age">
+      <input type="email" placeholder="Example@gmail.com">
+      <select>
+        <option>UI / UX Designer</option>
+        <option>Front End</option>
+        <option>Back End</option>
+        <option>Full Stack</option>
+        <option>Cyber Security</option>
+    </select>
+      <input type="submit" value="Send">
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>

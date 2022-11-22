@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+#pop{
+    position: relative;
+    width: 500px;
+    height: 110px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 0 50vmax rgb(200, 200, 200);
+    font-family: Tahoma;
+    color: #111;
+    display: none;
+}
+#pop #close{
+    position: absolute;
+    background-color: rgb(49, 145, 214);
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 50%;
+    top: -12px;
+    right: -15px;
+    cursor: pointer;
+}
